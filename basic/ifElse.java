@@ -2,7 +2,7 @@ package basic;
 
 import java.util.Scanner;
 
-public class ifelse { // this method will show how to use if for string,int and boolean
+public class ifElse { // this method will show how to use if for string,int and boolean
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

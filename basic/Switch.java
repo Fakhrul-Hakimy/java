@@ -24,6 +24,36 @@ public class Switch {
 
         }
 
+        //or echance switch
+        scanner.nextLine();
+        System.out.print("What day is today : ");
+        String days=scanner.nextLine();
+
+        //or we can do like this
+
+        switch(days){
+        case "Monday","Tuesday","Wednesday","Thursday","Friday"->System.out.println("Today is weekday");
+        case "Saturday", "Sunday" -> System.out.println("Today is weekends");
+         default-> System.out.println("This is not a day");
+         }
+
+        /*
+        this one list it by case or can do as first option
+        switch(days){
+            case "Monday" -> System.out.println("Today is weekday");
+            case "Tuesday" -> System.out.println("Today is weekday");
+            case "Wednesday" -> System.out.println("Today is weekday");
+            case "Thursday" -> System.out.println("Today is weekday");
+            case "Friday" -> System.out.println("Today is weekday");
+            case "Saturday" -> System.out.println("Today is weekends");
+            case "Sunday" -> System.out.println("Today is weekends");
+            default-> System.out.println("This is not a day");
+
+         */
+
+
+
+
 
     }
 }

@@ -2,7 +2,7 @@ package basic;
 
 import java.util.Scanner;
 
-public class ComIF { //compound if inside if
+public class comIF { //compound if inside if
 
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
