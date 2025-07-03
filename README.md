@@ -1,6 +1,6 @@
 # Java Learning Projects
 
-This repository contains various Java programs for learning and practicing core object-oriented programming (OOP) concepts.
+This repository contains various Java programs for learning and practicing core Java and object-oriented programming (OOP) concepts.
 
 ## 📁 Project Structure
 
@@ -34,13 +34,26 @@ OOP/
 │   ├── Van.java
 │   ├── Bike.java
 │   └── Main.java
-├── Car.java              # Simple class with constructors and attributes
-├── Main.java             # Basic class usage
-├── Object.java           # Object-oriented principle demonstration
+basic/                    # Covers Java basics: variables, conditions, input/output
+├── ifelse.java
+├── switchcase.java
+├── loops.java
+├── arrayDemo.java
+├── Main.java
+├── ScannerDemo.java
+
+Car.java                  # Simple class with constructors and attributes
+Main.java                 # Basic class usage
+Object.java               # Object-oriented principle demonstration
 ```
 
 ## ✅ Covered Concepts
 
+- Basic Input/Output using Scanner
+- Variables and Data Types
+- Conditional Statements (`if`, `else`, `switch`)
+- Loops (`for`, `while`, `do-while`)
+- Arrays
 - Class & Object
 - Constructors
 - Inheritance
@@ -61,9 +74,8 @@ OOP/
 - Thread and Runnable basics
 - Thread lifecycle and synchronization
 
-
 ## 🚀 How to Run
 
 1. Open the project in IntelliJ IDEA or any Java IDE.
-2. Navigate to any `Main.java` file inside a topic folder (e.g., `OOP/inheritance/Main.java`).
+2. Navigate to any `Main.java` file inside a topic folder (e.g., `OOP/inheritance/Main.java` or `basic/ifelse.java`).
 3. Run the file to see output in the console.
