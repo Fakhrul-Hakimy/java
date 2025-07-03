@@ -34,7 +34,10 @@ OOP/
 │   ├── Van.java
 │   ├── Bike.java
 │   └── Main.java
-basic/                    # Covers Java basics: variables, conditions, input/output
+│ Car.java                  # Simple class with constructors and attributes
+│ Main.java                 # Basic class usage
+│ Object.java               # Object-oriented principle demonstration
+│ basic/                    # Covers Java basics: variables, conditions, input/output
 ├── ifelse.java
 ├── switchcase.java
 ├── loops.java
@@ -42,9 +45,7 @@ basic/                    # Covers Java basics: variables, conditions, input/out
 ├── Main.java
 ├── ScannerDemo.java
 
-Car.java                  # Simple class with constructors and attributes
-Main.java                 # Basic class usage
-Object.java               # Object-oriented principle demonstration
+
 ```
 
 ## ✅ Covered Concepts
