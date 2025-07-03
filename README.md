@@ -1,23 +1,89 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/shoe1QBb)
-## Your Info:
-1. Matric Number:
-1. Name:
+# Java Learning Projects
 
-## Instruction:
+This repository contains various Java programs for learning and practicing core Java and object-oriented programming (OOP) concepts.
 
-You are a backend developer for BankSecure, a financial system that processes transactions between multiple user accounts. During high transaction volume, your team observes that the system sometimes freezes due to indefinitely blocked threads. Initial investigation shows this happens when two transactions simultaneously try to lock two different user accounts (e.g., Ali and Badrul), but in reverse order, causing a deadlock.
+## 📁 Project Structure
 
-Simulate this problem using Java by writing a multithreaded program with two account objects (Account A and Account B). Create two threads, where:
-
-* Thread 1 tries to lock Account A, then Account B
-
-* Thread 2 tries to lock Account B, then Account A
-
-Add delays to simulate real processing time, and demonstrate how this setup leads to a deadlock. Print out log messages to show when each thread acquires a lock.
-
-## Expected Output (example):
 ```
-Thread 1: Locked A
-Thread 2: Locked B
+OOP/
+├── Abstract/             # Abstract class and polymorphism examples
+│   ├── Shape.java
+│   ├── Circle.java
+│   ├── Triangle.java
+│   └── Main.java
+├── Interface/            # Interface and multiple inheritance examples
+│   ├── Student.java
+│   ├── Teacher.java
+│   ├── Lecterur.java
+│   ├── postGraduate.java
+│   ├── underGraduate.java
+│   └── Main.java
+├── inheritance/          # Inheritance and method overriding examples
+│   ├── Animal.java
+│   ├── Cat.java
+│   ├── Dog.java
+│   ├── Fish.java
+│   └── Main.java
+├── aggregation/          # Aggregation (HAS-A relationship) example
+│   ├── Book.java
+│   ├── Library.java
+│   └── Main.java
+├── polymorphism/         # Polymorphism with Vehicle, Car, Van, Bike
+│   ├── Vehicle.java
+│   ├── Car.java
+│   ├── Van.java
+│   ├── Bike.java
+│   └── Main.java
+│ Car.java                  # Simple class with constructors and attributes
+│ Main.java                 # Basic class usage
+
+
+basic/                    # Covers Java basics: variables, conditions, input/output
+├── ifelse.java
+├── Switch.java
+├── For.java
+├── Method.java
+├── breakcontinue.java
+├── ScannerDemo.java
+├── array.java
+├── While.java
+├── comIF.java
+├── searchArray.java
+├── variable.java
+├── doWhile.java
+├── ifElse.java
+
 ```
-## Your Output/Result
+
+## ✅ Covered Concepts
+
+- Basic Input/Output using Scanner
+- Variables and Data Types
+- Conditional Statements (`if`, `else`, `switch`)
+- Loops (`for`, `while`, `do-while`)
+- Arrays
+- Class & Object
+- Constructors
+- Inheritance
+- Method Overriding
+- Abstract Classes
+- Interfaces
+- Polymorphism
+- Aggregation (HAS-A relationship)
+
+## ⚙️ Exception Handling
+
+- Try-catch-finally blocks
+- Custom exceptions
+- Throw vs Throws
+
+## ⏱️ Multithreading
+
+- Thread and Runnable basics
+- Thread lifecycle and synchronization
+
+## 🚀 How to Run
+
+1. Open the project in IntelliJ IDEA or any Java IDE.
+2. Navigate to any `Main.java` file inside a topic folder (e.g., `OOP/inheritance/Main.java` or `basic/ifelse.java`).
+3. Run the file to see output in the console.
