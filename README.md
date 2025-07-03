@@ -36,7 +36,7 @@ OOP/
 │   └── Main.java
 │ Car.java                  # Simple class with constructors and attributes
 │ Main.java                 # Basic class usage
-│ Object.java               # Object-oriented principle demonstration
+
 
 basic/                    # Covers Java basics: variables, conditions, input/output
 ├── ifelse.java
