@@ -37,14 +37,21 @@ OOP/
 │ Car.java                  # Simple class with constructors and attributes
 │ Main.java                 # Basic class usage
 │ Object.java               # Object-oriented principle demonstration
-│ basic/                    # Covers Java basics: variables, conditions, input/output
-├── ifelse.java
-├── switchcase.java
-├── loops.java
-├── arrayDemo.java
-├── Main.java
-├── ScannerDemo.java
 
+basic/                    # Covers Java basics: variables, conditions, input/output
+├── ifelse.java
+├── Switch.java
+├── For.java
+├── Method.java
+├── breakcontinue.java
+├── ScannerDemo.java
+├── array.java
+├── While.java
+├── comIF.java
+├── searchArray.java
+├── variable.java
+├── doWhile.java
+├── ifElse.java
 
 ```
 
